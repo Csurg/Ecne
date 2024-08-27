@@ -1,0 +1,1461 @@
+{
+	"info": {
+		"_postman_id": "5b585505-16bc-4e4d-8997-3772ca9b6285",
+		"name": "epets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31227416"
+	},
+	"item": [
+		{
+			"name": "GET VETS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ecne.stud.vts.su.ac.rs/epets/react/getVets.php",
+					"host": [
+						"ecne",
+						"stud",
+						"vts",
+						"su",
+						"ac",
+						"rs"
+					],
+					"path": [
+						"epets",
+						"react",
+						"getVets.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "All vets",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getVets.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getVets.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 21:52:06 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"vet_id\": 1,\n        \"vetname\": \"Josh Clark\"\n    },\n    {\n        \"vet_id\": 2,\n        \"vetname\": \"Darcy Zuri\"\n    },\n    {\n        \"vet_id\": 3,\n        \"vetname\": \"Benjamin Smith\"\n    },\n    {\n        \"vet_id\": 4,\n        \"vetname\": \"Amanda Brown\"\n    },\n    {\n        \"vet_id\": 5,\n        \"vetname\": \"Erzsébet Kiss\"\n    },\n    {\n        \"vet_id\": 6,\n        \"vetname\": \"Anna Nagy\"\n    },\n    {\n        \"vet_id\": 7,\n        \"vetname\": \"Steven White\"\n    },\n    {\n        \"vet_id\": 8,\n        \"vetname\": \"Ashley Miller\"\n    },\n    {\n        \"vet_id\": 9,\n        \"vetname\": \"Rick Novak\"\n    },\n    {\n        \"vet_id\": 10,\n        \"vetname\": \"Ronald Barr\"\n    },\n    {\n        \"vet_id\": 16,\n        \"vetname\": \"András János\"\n    },\n    {\n        \"vet_id\": 17,\n        \"vetname\": \"Jácint Kovács\"\n    },\n    {\n        \"vet_id\": 18,\n        \"vetname\": \"Bernadett Kiss\"\n    },\n    {\n        \"vet_id\": 19,\n        \"vetname\": \"Tamas Pesti\"\n    }\n]"
+				},
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getVets.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getVets.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:11:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "GET BREEDS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ecne.stud.vts.su.ac.rs/epets/react/getBreeds.php",
+					"host": [
+						"ecne",
+						"stud",
+						"vts",
+						"su",
+						"ac",
+						"rs"
+					],
+					"path": [
+						"epets",
+						"react",
+						"getBreeds.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "All breeds",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getBreeds.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getBreeds.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 21:56:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"breed_id\": 1,\n        \"breed\": \"Dog\"\n    },\n    {\n        \"breed_id\": 2,\n        \"breed\": \"Cat\"\n    },\n    {\n        \"breed_id\": 3,\n        \"breed\": \"Cow\"\n    },\n    {\n        \"breed_id\": 4,\n        \"breed\": \"Sheep\"\n    },\n    {\n        \"breed_id\": 5,\n        \"breed\": \"Goat\"\n    },\n    {\n        \"breed_id\": 6,\n        \"breed\": \"Horse\"\n    },\n    {\n        \"breed_id\": 7,\n        \"breed\": \"Pig\"\n    },\n    {\n        \"breed_id\": 8,\n        \"breed\": \"Chicken\"\n    },\n    {\n        \"breed_id\": 9,\n        \"breed\": \"Duck\"\n    },\n    {\n        \"breed_id\": 10,\n        \"breed\": \"Turkey\"\n    },\n    {\n        \"breed_id\": 11,\n        \"breed\": \"Rabbit\"\n    },\n    {\n        \"breed_id\": 12,\n        \"breed\": \"Donkey\"\n    },\n    {\n        \"breed_id\": 13,\n        \"breed\": \"Camel\"\n    },\n    {\n        \"breed_id\": 14,\n        \"breed\": \"Llama\"\n    },\n    {\n        \"breed_id\": 15,\n        \"breed\": \"Alpaca\"\n    },\n    {\n        \"breed_id\": 16,\n        \"breed\": \"Guinea Pig\"\n    },\n    {\n        \"breed_id\": 17,\n        \"breed\": \"Hamster\"\n    },\n    {\n        \"breed_id\": 18,\n        \"breed\": \"Parrot\"\n    },\n    {\n        \"breed_id\": 19,\n        \"breed\": \"Pigeon\"\n    },\n    {\n        \"breed_id\": 20,\n        \"breed\": \"Goldfish\"\n    },\n    {\n        \"breed_id\": 21,\n        \"breed\": \"Koi Fish\"\n    },\n    {\n        \"breed_id\": 22,\n        \"breed\": \"Ferret\"\n    },\n    {\n        \"breed_id\": 23,\n        \"breed\": \"Chinchilla\"\n    },\n    {\n        \"breed_id\": 24,\n        \"breed\": \"Rat\"\n    },\n    {\n        \"breed_id\": 25,\n        \"breed\": \"Mouse\"\n    },\n    {\n        \"breed_id\": 26,\n        \"breed\": \"Goose\"\n    },\n    {\n        \"breed_id\": 27,\n        \"breed\": \"Quail\"\n    },\n    {\n        \"breed_id\": 28,\n        \"breed\": \"Ostrich\"\n    },\n    {\n        \"breed_id\": 29,\n        \"breed\": \"Bee\"\n    },\n    {\n        \"breed_id\": 30,\n        \"breed\": \"Silkworm\"\n    },\n    {\n        \"breed_id\": 31,\n        \"breed\": \"Budgerigar\"\n    },\n    {\n        \"breed_id\": 32,\n        \"breed\": \"Lovebird\"\n    },\n    {\n        \"breed_id\": 33,\n        \"breed\": \"Canary\"\n    },\n    {\n        \"breed_id\": 34,\n        \"breed\": \"Cockatiel\"\n    },\n    {\n        \"breed_id\": 35,\n        \"breed\": \"Mule\"\n    },\n    {\n        \"breed_id\": 36,\n        \"breed\": \"Zebu\"\n    },\n    {\n        \"breed_id\": 37,\n        \"breed\": \"Yak\"\n    },\n    {\n        \"breed_id\": 38,\n        \"breed\": \"Buffalo\"\n    },\n    {\n        \"breed_id\": 39,\n        \"breed\": \"Emu\"\n    },\n    {\n        \"breed_id\": 40,\n        \"breed\": \"Hedgehog\"\n    },\n    {\n        \"breed_id\": 41,\n        \"breed\": \"Tortoise\"\n    },\n    {\n        \"breed_id\": 42,\n        \"breed\": \"Iguana\"\n    },\n    {\n        \"breed_id\": 43,\n        \"breed\": \"Sugar Glider\"\n    },\n    {\n        \"breed_id\": 44,\n        \"breed\": \"Gerbil\"\n    },\n    {\n        \"breed_id\": 45,\n        \"breed\": \"Peacock\"\n    },\n    {\n        \"breed_id\": 46,\n        \"breed\": \"Bantam Chicken\"\n    },\n    {\n        \"breed_id\": 47,\n        \"breed\": \"Peking Duck\"\n    },\n    {\n        \"breed_id\": 48,\n        \"breed\": \"Dwarf Goat\"\n    },\n    {\n        \"breed_id\": 49,\n        \"breed\": \"Zebra Finch\"\n    },\n    {\n        \"breed_id\": 50,\n        \"breed\": \"Pomeranian\"\n    }\n]"
+				},
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getBreeds.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getBreeds.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:10:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "GET PETS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Has no pet",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getPets.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getPets.php"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:06:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"You have not registered a pet yet!\"\n}"
+				},
+				{
+					"name": "Found pets",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getPets.php?user_id=2",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getPets.php"
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:09:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"pet_id\": 14,\n        \"user_id\": 2,\n        \"name\": \"Malna\",\n        \"vet_id\": 3\n    }\n]"
+				},
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getPets.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getPets.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:10:13 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "GET PET DATA",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "No data",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getPetData.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getPetData.php"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:12:46 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"No data found\"\n}"
+				},
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getPetData.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getPetData.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:13:08 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				},
+				{
+					"name": "Found data",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/getPetData.php?pet_id=13",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"getPetData.php"
+							],
+							"query": [
+								{
+									"key": "pet_id",
+									"value": "13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:13:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"pet_id\": 13,\n    \"petname\": \"Deigo\",\n    \"breed\": \"Hamster\",\n    \"vetname\": \"Benjamin Smith\",\n    \"age\": 6,\n    \"gender\": \"Male\",\n    \"other\": \"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"nahezjooooo@gmail.com\",\r\n    \"password\": \"asd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "ecne.stud.vts.su.ac.rs/epets/react/login.php",
+					"host": [
+						"ecne",
+						"stud",
+						"vts",
+						"su",
+						"ac",
+						"rs"
+					],
+					"path": [
+						"epets",
+						"react",
+						"login.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ERROR 400",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/login.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"login.php"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 21:59:57 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Not enough parameters\"\n}"
+				},
+				{
+					"name": "Successful login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"nahezjooooo@gmail.com\",\r\n    \"password\": \"asdasdasd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/login.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"login.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:03:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"You have logged in!\",\n    \"email\": \"nahezjooooo@gmail.com\",\n    \"user_id\": 1\n}"
+				},
+				{
+					"name": "Not found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"nahezjooooo@gmail.com\",\r\n    \"password\": \"asd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/login.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"login.php"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:04:36 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Not found user\"\n}"
+				},
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"nahezjooooo@gmail.com\",\r\n    \"password\": \"asd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/login.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"login.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:10:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "INSERT PET",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 2,\r\n    \"name\" : \"postman\",\r\n    \"breed_id\" : 1,\r\n    \"vet_id\": 3,\r\n    \"age\": 6,\r\n    \"gender\": \"Male\",\r\n    \"other\": \"hello from postman\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "ecne.stud.vts.su.ac.rs/epets/react/insertPet.php",
+					"host": [
+						"ecne",
+						"stud",
+						"vts",
+						"su",
+						"ac",
+						"rs"
+					],
+					"path": [
+						"epets",
+						"react",
+						"insertPet.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/insertPet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"insertPet.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:16:21 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				},
+				{
+					"name": "Not enough data",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/insertPet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"insertPet.php"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:18:19 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Not enough variables given\"\n}"
+				},
+				{
+					"name": "Successful register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 2,\r\n    \"name\" : \"postman\",\r\n    \"breed_id\" : 1,\r\n    \"vet_id\": 3,\r\n    \"age\": 6,\r\n    \"gender\": \"Male\",\r\n    \"other\": \"hello from postman\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/insertPet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"insertPet.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:21:02 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successful register!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "EDIT PET",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pet_id\":15,\r\n    \"name\":\"test\",\r\n    \"age\":55,\r\n    \"other\":\"asd\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "ecne.stud.vts.su.ac.rs/epets/react/editPet.php",
+					"host": [
+						"ecne",
+						"stud",
+						"vts",
+						"su",
+						"ac",
+						"rs"
+					],
+					"path": [
+						"epets",
+						"react",
+						"editPet.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/editPet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"editPet.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:23:28 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				},
+				{
+					"name": "Missing data",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/editPet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"editPet.php"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:24:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Empty variables\"\n}"
+				},
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pet_id\":15,\r\n    \"name\":\"test\",\r\n    \"age\":55,\r\n    \"other\":\"asd\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/editPet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"editPet.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:26:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Updated successfully!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "DELETE PET",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pet_id\":\"14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "ecne.stud.vts.su.ac.rs/epets/react/deletePet.php",
+					"host": [
+						"ecne",
+						"stud",
+						"vts",
+						"su",
+						"ac",
+						"rs"
+					],
+					"path": [
+						"epets",
+						"react",
+						"deletePet.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Not allowed",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/deletePet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"deletePet.php"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:27:19 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Method Not Allowed\"\n}"
+				},
+				{
+					"name": "Missing id",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "ecne.stud.vts.su.ac.rs/epets/react/deletePet.php",
+							"host": [
+								"ecne",
+								"stud",
+								"vts",
+								"su",
+								"ac",
+								"rs"
+							],
+							"path": [
+								"epets",
+								"react",
+								"deletePet.php"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 26 Aug 2024 22:28:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Missing pet id\"\n}"
+				}
+			]
+		}
+	]
+}
