@@ -1,0 +1,44 @@
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th, td {
+    padding: 15px;
+}
+tbody{
+    display: block;
+    max-height: 50vh;
+    overflow-y: scroll
+}
+
+
+@media (max-width: 1560px) {
+    .th,td {
+        padding: 10px;
+    }
+    tbody{
+        overflow-x: scroll;
+        max-width:100vh;
+    }
+}
+@media (max-width: 1150px) {
+    tbody{
+        max-width:70vh;
+    }
+}
+@media (max-width: 800px) {
+    tbody{
+        max-width:50vh;
+    }
+}
+@media (max-width: 550px) {
+    tbody{
+        max-width:30vh;
+    }
+}

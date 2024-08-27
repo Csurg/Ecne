@@ -1,0 +1,39 @@
+body{
+    min-height: 113vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+
+}
+
+#myTable_wrapper {
+    margin: 20px;
+}
+
+#myTable {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#myTable th, #myTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#myTable tbody tr:hover {
+    background-color: #ffde59;
+}
+#table-bg {
+    padding: 10px;
+    height: 600px;
+    width: 800px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
